@@ -26,6 +26,7 @@ export async function getJobs() {
 export async function applyToJob(body: {
   uuid: string;
   candidateId: string;
+  applicationId: string;
   jobId: string;
   repoUrl: string;
 }) {

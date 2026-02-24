@@ -2,7 +2,7 @@
 
 React + TypeScript app that lists jobs and allows applying using a GitHub repository URL.
 
-## Run
+## How to run:
 
-npm install
-npm run dev
+-npm install
+-npm run dev

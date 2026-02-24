@@ -1,5 +1,5 @@
-const BASE_URL =
-  "https://botfilter-h5ddh6dye8exb7ha.centralus-01.azurewebsites.net";
+const BASE_URL = import.meta.env.VITE_BASE_URL;
+
 
 export async function getCandidateByEmail(email: string) {
   const res = await fetch(
